@@ -1,5 +1,8 @@
 <h1>Result</h1>
 <%=@response%>
+<div>
+<p>You've played <%=@session_array.length%> games, and have a total score of <%=@grand%></p>
+</div>
 <div class = "mt-3">
   <%=link_to "Play again", "/new"%>
 </div>
